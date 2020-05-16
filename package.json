@@ -1,0 +1,29 @@
+{
+  "name": "yt-downloader-cli",
+  "version": "1.0.0",
+  "description": "A cli to download content from YouTube",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlos-jean-gawronski/yt-downloader-cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "Carlos Jean Gawronski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlos-jean-gawronski/yt-downloader-cli/issues"
+  },
+  "homepage": "https://github.com/carlos-jean-gawronski/yt-downloader-cli#readme",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "ora": "^4.0.4",
+    "youtube-mp3-downloader": "^0.6.7"
+  }
+}
